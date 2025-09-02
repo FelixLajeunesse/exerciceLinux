@@ -3,6 +3,8 @@
 echo "Creation des dossiers bin, cegep et projets"
 mkdir bin cegep projets
 
+sudo pacman -Syu
+
 echo "Installation de git" 
 sudo pacman -S git
 
